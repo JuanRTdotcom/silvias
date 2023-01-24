@@ -1,0 +1,57 @@
+version: '3'
+
+services:
+  mariadb-arvovirus:
+    build:
+      context: ./docker/mysql
+    container_name: mariadb-arvovirus
+    restart: always
+    environment:      
+      - MARIADB_ROOT_PASSWORD=password
+    ports:
+      - 3390:3306
+    volumes:
+      - ./database:/var/lib/mysql
+
+  php-arvovirus:
+    build:
+      context: ./docker/php
+    container_name: php-arvovirus
+    ports:
+      - 90:80
+    volumes:
+      - ./www:/var/www/html
+      - ./descargas:/tmp/descargas
+    links:
+         - mariadb-arvovirus
+  arbovirus-generador:
+    build:
+      context: ./docker/python
+    environment:
+      #variables de entorno para el contendor con los datos de conexion a servidor de base de datos 
+      - host1=mariadb-arvovirus
+      - user1=root
+      - pass1=password
+      - bd1=colas
+      - host2=mariadb-arvovirus
+      - user2=root
+      - pass2=password
+      - bd2=arbocentinela
+      - host3=mariadb-arvovirus
+      - user3=root
+      - pass3=password
+      - bd3=colas
+    restart: always
+    #command: sh -c "cd /code && python init.py"
+    volumes:
+      - ./codigo:/code
+      - ./descargas:/tmp/descargas
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    restart: always
+    environment:
+      PMA_HOST: mariadb-arvovirus
+      PMA_USER: root
+      PMA_PASSWORD: password
+    ports:
+      - "8090:80"

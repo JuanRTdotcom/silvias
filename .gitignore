@@ -1,0 +1,9 @@
+# does not ignore the README.md file
+!README.md
+
+witable/session/
+witable/logs/
+witable/debugbar/
+public/upload/servicios/
+public/upload/clientes/
+public/upload/avatar/

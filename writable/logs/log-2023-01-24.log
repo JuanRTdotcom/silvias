@@ -1,0 +1,116 @@
+ERROR - 2023-01-24 04:43:10 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and c.estado = 1 limit 1) and estado = 1' at line 18 in C:\xampp\htdocs\silvia\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\silvia\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE persona\r...', 0)
+#1 C:\xampp\htdocs\silvia\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE persona\r...')
+#2 C:\xampp\htdocs\silvia\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE persona\r...')
+#3 C:\xampp\htdocs\silvia\app\Models\Cliente_model.php(131): CodeIgniter\Database\BaseConnection->query('UPDATE persona\r...')
+#4 C:\xampp\htdocs\silvia\app\Controllers\Clientes.php(228): App\Models\Cliente_model->editarCliente('', 'juan ', 'ruiz', 'trujillo', 'H', '', 'MOCHE', '77271360', '', '', '', '', '1', NULL, NULL)
+#5 C:\xampp\htdocs\silvia\system\CodeIgniter.php(934): App\Controllers\Clientes->editarClientes()
+#6 C:\xampp\htdocs\silvia\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\xampp\htdocs\silvia\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\silvia\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-24 04:43:10 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estado = 1' at line 4 in C:\xampp\htdocs\silvia\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\silvia\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE cliente\r...', 0)
+#1 C:\xampp\htdocs\silvia\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE cliente\r...')
+#2 C:\xampp\htdocs\silvia\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE cliente\r...')
+#3 C:\xampp\htdocs\silvia\app\Models\Cliente_model.php(132): CodeIgniter\Database\BaseConnection->query('UPDATE cliente\r...')
+#4 C:\xampp\htdocs\silvia\app\Controllers\Clientes.php(228): App\Models\Cliente_model->editarCliente('', 'juan ', 'ruiz', 'trujillo', 'H', '', 'MOCHE', '77271360', '', '', '', '', '1', NULL, NULL)
+#5 C:\xampp\htdocs\silvia\system\CodeIgniter.php(934): App\Controllers\Clientes->editarClientes()
+#6 C:\xampp\htdocs\silvia\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\xampp\htdocs\silvia\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\silvia\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-24 04:43:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and c.estado = 1 limit 1) and estado = 1' at line 18 in C:\xampp\htdocs\silvia\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\silvia\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE persona\r...', 0)
+#1 C:\xampp\htdocs\silvia\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE persona\r...')
+#2 C:\xampp\htdocs\silvia\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE persona\r...')
+#3 C:\xampp\htdocs\silvia\app\Models\Cliente_model.php(131): CodeIgniter\Database\BaseConnection->query('UPDATE persona\r...')
+#4 C:\xampp\htdocs\silvia\app\Controllers\Clientes.php(228): App\Models\Cliente_model->editarCliente('', 'juan ', 'ruiz', 'trujillo', 'H', '', 'MOCHE', '77271360', '', '', '', '', '1', NULL, NULL)
+#5 C:\xampp\htdocs\silvia\system\CodeIgniter.php(934): App\Controllers\Clientes->editarClientes()
+#6 C:\xampp\htdocs\silvia\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\xampp\htdocs\silvia\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\silvia\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-24 04:43:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estado = 1' at line 4 in C:\xampp\htdocs\silvia\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\silvia\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE cliente\r...', 0)
+#1 C:\xampp\htdocs\silvia\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE cliente\r...')
+#2 C:\xampp\htdocs\silvia\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE cliente\r...')
+#3 C:\xampp\htdocs\silvia\app\Models\Cliente_model.php(132): CodeIgniter\Database\BaseConnection->query('UPDATE cliente\r...')
+#4 C:\xampp\htdocs\silvia\app\Controllers\Clientes.php(228): App\Models\Cliente_model->editarCliente('', 'juan ', 'ruiz', 'trujillo', 'H', '', 'MOCHE', '77271360', '', '', '', '', '1', NULL, NULL)
+#5 C:\xampp\htdocs\silvia\system\CodeIgniter.php(934): App\Controllers\Clientes->editarClientes()
+#6 C:\xampp\htdocs\silvia\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\xampp\htdocs\silvia\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\silvia\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-24 04:46:10 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and c.estado = 1 limit 1) and estado = 1' at line 18 in C:\xampp\htdocs\silvia\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\silvia\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE persona\r...', 0)
+#1 C:\xampp\htdocs\silvia\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE persona\r...')
+#2 C:\xampp\htdocs\silvia\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE persona\r...')
+#3 C:\xampp\htdocs\silvia\app\Models\Cliente_model.php(131): CodeIgniter\Database\BaseConnection->query('UPDATE persona\r...')
+#4 C:\xampp\htdocs\silvia\app\Controllers\Clientes.php(228): App\Models\Cliente_model->editarCliente('', 'juan ', 'ruiz', 'trujillo', 'H', '', 'MOCHE', '77271360', '', '', '', '', '1', NULL, NULL)
+#5 C:\xampp\htdocs\silvia\system\CodeIgniter.php(934): App\Controllers\Clientes->editarClientes()
+#6 C:\xampp\htdocs\silvia\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\xampp\htdocs\silvia\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\silvia\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-24 04:46:10 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and estado = 1' at line 4 in C:\xampp\htdocs\silvia\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\silvia\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE cliente\r...', 0)
+#1 C:\xampp\htdocs\silvia\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE cliente\r...')
+#2 C:\xampp\htdocs\silvia\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE cliente\r...')
+#3 C:\xampp\htdocs\silvia\app\Models\Cliente_model.php(132): CodeIgniter\Database\BaseConnection->query('UPDATE cliente\r...')
+#4 C:\xampp\htdocs\silvia\app\Controllers\Clientes.php(228): App\Models\Cliente_model->editarCliente('', 'juan ', 'ruiz', 'trujillo', 'H', '', 'MOCHE', '77271360', '', '', '', '', '1', NULL, NULL)
+#5 C:\xampp\htdocs\silvia\system\CodeIgniter.php(934): App\Controllers\Clientes->editarClientes()
+#6 C:\xampp\htdocs\silvia\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\xampp\htdocs\silvia\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\silvia\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-24 04:55:18 --> mysqli_sql_exception: Unknown column 'upload' in 'field list' in C:\xampp\htdocs\silvia\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\silvia\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE persona\r...', 0)
+#1 C:\xampp\htdocs\silvia\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE persona\r...')
+#2 C:\xampp\htdocs\silvia\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE persona\r...')
+#3 C:\xampp\htdocs\silvia\app\Models\Cliente_model.php(131): CodeIgniter\Database\BaseConnection->query('UPDATE persona\r...')
+#4 C:\xampp\htdocs\silvia\app\Controllers\Clientes.php(197): App\Models\Cliente_model->editarCliente('upload/clientes...', 'juan', 'ruiz', 'trujillo', 'H', '24', 'MOCHE', '77271360', '2023-01-23', 'jruit', '123', '123', '1', '15', NULL)
+#5 C:\xampp\htdocs\silvia\system\CodeIgniter.php(934): App\Controllers\Clientes->editarClientes()
+#6 C:\xampp\htdocs\silvia\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\xampp\htdocs\silvia\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\silvia\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-24 04:55:36 --> mysqli_sql_exception: Unknown column 'upload' in 'field list' in C:\xampp\htdocs\silvia\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\silvia\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE persona\r...', 0)
+#1 C:\xampp\htdocs\silvia\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE persona\r...')
+#2 C:\xampp\htdocs\silvia\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE persona\r...')
+#3 C:\xampp\htdocs\silvia\app\Models\Cliente_model.php(131): CodeIgniter\Database\BaseConnection->query('UPDATE persona\r...')
+#4 C:\xampp\htdocs\silvia\app\Controllers\Clientes.php(197): App\Models\Cliente_model->editarCliente('upload/clientes...', 'juan', 'ruiz', 'trujillo', 'H', '24', 'MOCHE', '77271360', '2023-01-23', 'jruit', '123', '123', '1', '15', NULL)
+#5 C:\xampp\htdocs\silvia\system\CodeIgniter.php(934): App\Controllers\Clientes->editarClientes()
+#6 C:\xampp\htdocs\silvia\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\xampp\htdocs\silvia\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\silvia\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-24 04:56:21 --> mysqli_sql_exception: Unknown column 'upload' in 'field list' in C:\xampp\htdocs\silvia\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\silvia\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE persona\r...', 0)
+#1 C:\xampp\htdocs\silvia\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE persona\r...')
+#2 C:\xampp\htdocs\silvia\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE persona\r...')
+#3 C:\xampp\htdocs\silvia\app\Models\Cliente_model.php(131): CodeIgniter\Database\BaseConnection->query('UPDATE persona\r...')
+#4 C:\xampp\htdocs\silvia\app\Controllers\Clientes.php(197): App\Models\Cliente_model->editarCliente('upload/clientes...', 'juanaa', 'ruiz', 'trujillo', 'H', '24', 'MOCHE', '77271360', '2023-01-23', 'asd', '321', '321', '1', '15', NULL)
+#5 C:\xampp\htdocs\silvia\system\CodeIgniter.php(934): App\Controllers\Clientes->editarClientes()
+#6 C:\xampp\htdocs\silvia\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\xampp\htdocs\silvia\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\silvia\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-24 05:05:47 --> print_r() expects at most 2 arguments, 15 given
+in APPPATH\Models\Cliente_model.php on line 129.
+ 1 APPPATH\Models\Cliente_model.php(129): print_r('C:\\xampp\\htdocs\\silvia', 'juan', 'ruiz', 'trujillo', 'H', '24', 'MOCHE', '77271360', '2023-01-23', 'asd', '321', '321', '1', '15', null)
+ 2 APPPATH\Controllers\Clientes.php(227): App\Models\Cliente_model->editarCliente('C:\\xampp\\htdocs\\silvia', 'juan', 'ruiz', 'trujillo', 'H', '24', 'MOCHE', '77271360', '2023-01-23', 'asd', '321', '321', '1', '15', null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Clientes->editarClientes()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
