@@ -1,10 +1,10 @@
-# does not ignore the README.md file
-!README.md
 
-node_modules/
+/node_modules/
 witable/session/
 witable/logs/
 witable/debugbar/
 public/upload/servicios/
 public/upload/clientes/
 public/upload/avatar/
+# does not ignore the README.md file
+!README.md
