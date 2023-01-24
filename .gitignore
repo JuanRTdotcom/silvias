@@ -1,6 +1,7 @@
 # does not ignore the README.md file
 !README.md
 
+node_modules/
 witable/session/
 witable/logs/
 witable/debugbar/
