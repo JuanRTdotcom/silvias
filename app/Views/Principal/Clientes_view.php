@@ -37,7 +37,7 @@
         color: #303030;
     }
 </style>
-<h4 class="fw-bold py-3 mb-2"><span class="text-muted fw-light">Lista de</span> clientes (<span class="total"></span> clientes)</h4>
+<h4 class="fw-bold py-3 mb-2"><span class="text-muted fw-light">Lista de</span> clientes ( <span class="total"></span> resultado )</h4>
 <div class="card mb-4">
     <div class="row card-body ">
         <div class="col-md-4">

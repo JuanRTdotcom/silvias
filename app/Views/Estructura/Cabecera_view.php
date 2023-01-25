@@ -99,15 +99,15 @@
           </li>
 
           <!-- Layouts -->
-          <li class="menu-item">
-            <a href="javascript:void(0);" class="menu-link menu-toggle">
+          <li class="menu-item <?php echo uri_string() == 'ventas/nueva' ? 'active open' : '' ?>">
+            <a href="javascript:void(0);" class="menu-link menu-toggle ">
               <i class="menu-icon tf-icons bx bx-dollar-circle"></i>
               <div data-i18n="Layouts">Ventas</div>
             </a>
             <ul class="menu-sub">
-              <li class="menu-item">
-                <a href="layouts-without-menu.html" class="menu-link">
-                  <div data-i18n="Without menu">Nuevo</div>
+              <li class="menu-item <?php echo uri_string() == 'ventas/nueva' ? 'active open' : '' ?>">
+                <a href="<?php echo APP_URL ?>ventas/nueva" class="menu-link ">
+                  <div data-i18n="Without menu">Mis ventas</div>
                 </a>
               </li>
               <li class="menu-item">

@@ -5,7 +5,7 @@
     <script src="<?php echo APP_URL_PUBLIC_ASSETS?>vendor/js/bootstrap.js"></script>
     <script src="<?php echo APP_URL_PUBLIC_ASSETS?>vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
     <script src="<?php echo APP_URL_PUBLIC_ASSETS?>js/sweet_alert_d.min.js"></script>
-    <script src="<?php echo APP_URL_PUBLIC_ASSETS?>js/datatables.min.js"></script>
+    <!-- <script src="<?php echo APP_URL_PUBLIC_ASSETS?>js/datatables.min.js"></script> -->
 
     <script src="<?php echo APP_URL_PUBLIC_ASSETS?>vendor/js/menu.js"></script>
     <!-- endbuild -->

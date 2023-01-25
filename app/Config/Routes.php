@@ -49,6 +49,8 @@ $routes->post('/clientes/buscar', 'Clientes::buscarClientes');
 $routes->post('/clientes/buscar/id', 'Clientes::buscarClientesId');
 $routes->post('/clientes/eliminar/id', 'Clientes::eliminarClientesId');
 
+$routes->get('/ventas/nueva', 'Ventas::index');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
