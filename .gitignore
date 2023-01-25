@@ -1,8 +1,8 @@
 
 /node_modules/
-witable/session/
-witable/logs/
-witable/debugbar/
+writable/session/
+writable/logs/
+writable/debugbar/
 public/upload/servicios/
 public/upload/clientes/
 public/upload/avatar/
