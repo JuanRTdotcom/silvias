@@ -70,7 +70,7 @@ class Filters extends BaseConfig
                 "/",
                 "servicios",
                 "clientes",
-                "ventas",
+                "ventas/*",
                 // "Plandet/*"
 
             ],

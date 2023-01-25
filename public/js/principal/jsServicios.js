@@ -324,10 +324,19 @@ const crearServicio = (datas) => {
     })
     document.querySelector('.mis_servicios').innerHTML = `
     <div class="col-12 col-xs-6 col-sm-6 col-md-6 col-xl-4 col-xxl-3 cursor-pointer add_service" onclick="limpiarNuevo()" data-bs-toggle="modal" data-bs-target="#add">
-            <div class="card mb-3 d-flex justify-content-center align-items-center card_nuevo">
-                <div style="width: 100%;height: 100px;font-size: 40px;" class="d-flex justify-content-center align-items-center">
-                    <i class='bx bx-plus-circle' style="font-size: 35px;color:white"></i>
-                    <h3 class="m-0 mx-1" style="color:white">Nuevo</h3>
+            <div class="card ">
+                <div class="row ">
+                    <div class="col-sm-5">
+                        <div class="d-flex align-items-end h-100 justify-content-center mt-sm-0 mt-3">
+                            <img src="${APP_URL_PUBLIC_IMAGE}servi.png" class="img-fluid" alt="Image" width="120" data-app-light-img="illustrations/sitting-girl-with-laptop-light.png" data-app-dark-img="illustrations/sitting-girl-with-laptop-dark.png">
+                        </div>
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="card-body text-sm-end text-center ps-sm-0">
+                            <button class="btn btn-primary mb-3 text-nowrap add-new-role">Crear servicio</button>
+                            <p class="mb-0">Crear si no existe</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div> ${serv}`
