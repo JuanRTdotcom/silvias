@@ -1,10 +1,7 @@
+database/
+descargas/*
+www/assets/captcha
+04colas.sql
+.env
 
-/node_modules/
-writable/session/
-writable/logs/
-writable/debugbar/
-public/upload/servicios/
-public/upload/clientes/
-public/upload/avatar/
-# does not ignore the README.md file
-!README.md
+*.yml
